@@ -85,8 +85,8 @@ header{
 }
 .header-right {
     float: right;
-    transition: all 0.5s;
-
+    margin-right: -25px;
+   
 }
 .header-right a:hover {
     color: orange;
@@ -97,6 +97,7 @@ header{
     padding: 0 25px;
     color: white;
     display: block;
+    transition: all 0.5s;
 }
 .menu-icon {
     color: white;
