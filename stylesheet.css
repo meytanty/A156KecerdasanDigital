@@ -42,6 +42,7 @@ a {
 }
 .btn-wrapper {
     margin: 10px 0;
+    text-align: center;
 }
 .order {
     background-color: red;
@@ -53,6 +54,7 @@ a {
     color: white;
     display: inline-block;
     border-radius: 4px;
+    text-align: center;
 }
 .btn:active {
     box-shadow: none;
@@ -70,7 +72,6 @@ header{
     position: fixed;
     top: 0;
     z-index: 10;
-    float: left;
 }
 .logo {
     font-family: 'ar decode';
