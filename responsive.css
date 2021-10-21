@@ -105,6 +105,9 @@
       }
 
     /* Footer */
+    .footer-right {
+        float: right;
+    }
 
     footer .contact h3 {
         font-size: 14px;
