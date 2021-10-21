@@ -1,268 +1,283 @@
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
-  margin: 0;
-  padding: 0;
-}
 * {
-    box-sizing:border-box;
-}
-body {
-    margin: 0;
-    font-family: "lucida Grands";
-}
-li {
-    list-style: none;
-}
-a {
-    text-decoration: none;
-}
-.clear {
-    clear: left;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif, "lucida Grands";
 }
 .container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-.top-wrapper {
-    padding: 210px 20% 50px 20%;
-    background-image: url(background_image\ KUE.png);
-    background-size: 100% 100%;
-	background-repeat: no-repeat;
-    border-bottom: 1px solid #341612;
-    color: white;
-    text-align: center;  
+  max-width: 1170px;
+  margin: 0;
+  padding: 0;
+  margin: auto;
 }
 
-.top-wrapper h1{
-    font-size: 40px;
-    letter-spacing: 5px;
-    margin-bottom: 20px;
-}
-.top-wrapper p {
-    
-    letter-spacing: 2px;
-    
-}
-marquee {
-    text-align: center;
-    width: 200px;
-    font-family: serif;
-    color: white;
-    font-weight: bold;
-    margin-top: 60px;
-}
-.btn-wrapper {
-    text-align: center;
-    margin-top: 10px;
-}
-.order {
-    background-color: red;
-    margin-top: 60px;
-    margin-bottom: 50px;
-}
-.btn {
-    opacity: 0.8;
-    padding: 12px 24px;
-    color: white;
-    display: inline-block;
-    border-radius: 4px;
-    text-align: center;
-}
-.btn:active {
-    box-shadow: none;
-    position: relative;
-    top: 7px;
-}
-.btn:hover {
-    opacity: 1;
-    padding: 10px 24px;
-}
-header{
-    width: 100%;
-    height: 65px;
-    background-color: saddlebrown;
-    position: fixed;
-    top: 0;
-    z-index: 10;   
-    border-bottom: 1px solid #341612;
-}
+/* Navigation Bar */
 nav {
-  background-color: #341612;
+  background-color: saddlebrown;
   height: 80px;
   width: 100%;
   position: fixed;
   z-index: 10;
 }
-.logo img {
-    height: 65px;
-    
+.logo img{
+  width: 100px;
+  margin-top: 8px;
+  float: left;
+  margin-left: 50px;
 }
-.header-left {
-    float: left;
+.header-right ul {
+  float: right;
+  margin-right: 50px;
 }
-.header-right {
-    float: right;
-    margin-right: -25px;
-    
+.header-right ul li {
+  display: inline-block;
+  line-height: 80px;
+  text-transform: uppercase;
 }
-.header-right li{
-    float: left;
+.header-right ul li a {
+  color: #fff5f0;
+  font-weight: bold;
+  padding: 0px 15px;
 }
-.header-right a:hover {
-    color: orange;
+.active .fa {
+  margin-right: 8px;
 }
-.header-right a {
-    line-height: 65px;
-    padding: 0 20px;
-    color: white;
-    display: block;
-    transition: all 0.5s;
-
+.header-right ul li a.active {
+  background-color: #8b4513;
+  padding: 7px 15px;
+  border-radius: 4px;
 }
-.menu-icon {
-    color: white;
-    float: right;
-    font-size: 25px;
-    padding: 21px 0;
-    
-    display: none;
-  }
-
-/* Tentang Section */
-  .content_tentang {
-      width: 100%;
-      height: auto;
-      background-color: #fff5f0;
-      padding: 50px 0px;
-      margin: auto;
-      text-align: center;
-  }
-  .content_tentang img {
-      border-radius: 50%;
-      width: 20%;
-      margin: auto;
-  }
-  .content_tentang .deskripsi_Tentang {
-      background-color: #8b4513;
-      width: 50%;
-      padding: 20px 15px;
-      margin: auto;
-      border-radius: 10px;
-  }
-  .content_tentang .deskripsi_Tentang h3 {
-      color: #341612;
-      font-family: "comic sans ms";
-      padding: 10px 0px;
-      border-bottom: 2px solid #341612;
-  }
-  .content_tentang .deskripsi_Tentang h4 {
-      color: #fff5f0;
-      padding: 10px;
-  }
-  .content_tentang .deskripsi_Tentang p {
-      text-align: justify;
-      text-indent: 30px;
-      color: #fff5f0;
-      font-size: 14px;
-      font-family: 'Montserrat', sans-serif;
-  }
-
-  
-.produk-wrapper {
-    background-color: #fac7aec5;
-    background-size: cover;
-    text-align: center;    
-    border-bottom: 1px solid #341612;
-    
+.header-right ul li a:hover {
+  background-color: #8b4513;
+  padding: 7px 15px;
+  border-radius: 4px;
+  color: orange;
+}
+/* Menu Icon */
+.checkbtn {
+  float: right;
+  line-height: 80px;
+  font-size: 30px;
+  color: #fff5f0;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
 }
 
+/* Home Page */
+header {
+  background-image: url("background_image\ KUE.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 140px 0px;
+}
 .heading {
-    padding: 80px 0 50px 0;
-    color: black;
-    font-style: bold;
+  color: #fff5f0;
+  margin: auto;
+  text-align: center;
+}
+.heading img {
+  width: 300px;
+}
+
+.heading h3 {
+  margin-bottom: 10px ;
+  letter-spacing: 2px;
+  font-size: 25px;
 
 }
+.heading p {
+  width: 50%;
+  margin: 10px auto 50px auto;
+  letter-spacing: 1px;
+}
+marquee {
+  text-align: center;
+  width: 200px;
+  font-family: serif;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.btn-wrapper {
+  text-align: center;
+  margin-top: 10px;
+}
+.order {
+  background-color: red;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.btn {
+  opacity: 0.8;
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+}
+.btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+.btn:hover {
+  opacity: 1;
+  padding: 10px 24px;
+}
+/* About's Page */
+.content_1 {
+  background-color: #fff5f0;
+  width: 100%;
+  padding: 50px 0px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+/* .content_1 .icon-tentang {
+  width: 90%;
+  height: 90%;
+  position: relative;
+} */
+.content_1 .icon-tentang img {
+  border-radius: 50%;
+  width: 20%;
+}
+.content_1 .icon-tentang .tentang_simbok {
+  width: 50%;
+  height: auto;
+  background-color: #8b4513;
+  border-radius: 25px;
+  padding: 20px;
+  color: #fff5f0;
+  margin: auto;
+}
+.content_1 .icon-tentang .tentang_simbok h2 {
+  padding: 10px 0px;
+  font-family: "comic sans ms";
+  border-bottom: 2px solid #341612;
+  color: #341612;
+}
+.content_1 .icon-tentang .tentang_simbok h4 {
+  padding: 10px;
+}
+.content_1 .icon-tentang .tentang_simbok p {
+  text-align: justify;
+  text-indent: 40px;
+  font-size: 14px;
+}
+
+/* Product's Page */
+.produk-wrapper {
+  background-color: rgba(245, 164, 106, 0.685);  
+  background-size: cover;
+  text-align: center;    
+  border-bottom: 1px solid #341612;
+  
+  
+}
+
+
 .heading h2 {
-    font-weight: normal;
+  font-weight: bold;
+  font-size: 35;
+  padding: 80px 0 50px 0;
+  color: #5f5d60;
 }
 .beli {
-    background-color: rgb(245, 150, 82);
-    padding: 8px 25px;
-    box-shadow: 0 5px saddlebrown;
+  background-color: rgb(245, 150, 82);
+  padding: 8px 25px;
+  box-shadow: 0 5px saddlebrown;
 }
 .beli:active {
-    box-shadow: none;
-    position: relative;
-    top: 5px;
+  box-shadow: none;
+  position: relative;
+  top: 5px;
 }
 .fa-cart-plus {
-    color:saddlebrown;
+  color:saddlebrown;
 }
 .kue {
-    
-    display: flex;
-    flex-wrap: wrap;
-    
-    
+  
+  display: flex;
+  flex-wrap: wrap;
+  
+  
 }
 .btn-produk {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 .kue-icon {
-    position: relative;
-    
-    width: 25%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    flex: auto;
+  position: relative;
+  
+  width: 25%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  flex: auto;
 }
 
 .kue h4 {
-    color: red;
+  color: red;
 }
 
 .more-btn {
-    margin: 60px 0 60px 0 ;
-    text-align: center;
-    font-size: 20px;
+  margin: 60px 0 60px 0 ;
+  text-align: center;
+  font-size: 20px;
 }
 .more-btn a:hover {
-    color: red;
+  color: red;
 }
+
+/* Footer */
 
 footer {
-    background-color: saddlebrown;
-    background-size: 100%;
-    display: block;
-    color: #fff5f0;
-    padding: 20px 50px;
-    position: relative;
-    height: 180px;
+  background-color: saddlebrown;
+  background-size: 100%;
+  display: block;
+  color: #fff5f0;
+  padding: 30px 50px;
+  position: relative;
+  height: 180px;
 }
-.footer-logo{
-	padding-top: 3px;
+.footer-left {
+  float: left;
 }
-
-.footer-address{
-	padding-top: 10px;
-	color: #fff5f0;
-	font-size: 11px;
-  font-family: 'Montserrat', sans-serif;
+.footer-address p{
+  color: white;
+  font-size: small;
 }
-
-footer h3{
-	color: #fff5f0;
-	font-family: 'Montserrat', sans-serif;
-   	margin-bottom: 5px;
+.logo2 img {
+  height: 85px;
 }
-.copyrights p{
-    font-size: 10px;
-    bottom: 8px;
-    color: black;
-    text-align: center;
-	top: 18px;
-
+.footer-right {
+  float: right;
 }
-
+.footer-right h3 {
+  margin-bottom: 15px;
+  color: white;
+}
+.footer-right ul li a {
+  color: #fff5f0;
+  font-size: 14px;
+}
+.footer-right li {
+   text-align: left;
+}
+.footer-right ul li a:hover {
+  color: orange;
+}
+.footer-right ul li a i.fa {
+   padding: 5px 8px;
+}
+.copyrights p {
+  position: relative;
+  top: 130px;
+  text-align: center;
+  font-size: 10px;
+  bottom: 8px;
+}
