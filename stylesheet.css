@@ -28,7 +28,8 @@ a {
 .top-wrapper {
     padding: 210px 20% 50px 20%;
     background-image: url(background_image\ KUE.png);
-    background-size: 100%;
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
     border-bottom: 1px solid #341612;
     color: white;
     text-align: center;  
@@ -86,6 +87,13 @@ header{
     top: 0;
     z-index: 10;   
     border-bottom: 1px solid #341612;
+}
+nav {
+  background-color: #341612;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
 }
 .logo img {
     height: 65px;
