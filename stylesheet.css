@@ -235,50 +235,37 @@ marquee {
 
 /* Footer */
 
-footer {
-  background-color: saddlebrown;
-  background-size: 100% 100%;
-  display: block;
-  color: #fff5f0;
-  padding: 30px 50px;
-  
+footer{
+	background-color: saddlebrown;
+	width: 100%;
+    height: 85px;
+	
 }
-.footer-left {
-  float: left;
+
+.footer-logo{
+	float:left;
+	padding-top: 3px;
 }
-.footer-address p{
-  color: white;
-  font-size: small;
-}
-.logo2 img {
-  height: 85px;
-}
-.footer-right {
+
+.footer-address{
   float: right;
+	padding-top: 10px;
+	color: #fff5f0;
+  font-size: 11px;
+  font-family: 'Montserrat', sans-serif;
 }
-.footer-right h3 {
-  margin-bottom: 15px;
-  color: white;
-}
-.footer-right ul li a {
-  color: #fff5f0;
-  font-size: 14px;
-}
-.footer-right li {
-   text-align: left;
-}
-.footer-right ul li a:hover {
-  color: orange;
-}
-.footer-right ul li a i.fa {
-   padding: 5px 8px;
+
+footer h3{
+	color: #fff5f0;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 5px;
 }
 .copyrights{
   position: absolute;
   
 }
 .copyrights p {
-  float: left;
+  float: right;
   color: white;
   font-size: 10px;
   position: relative;
