@@ -103,15 +103,4 @@
     .kue-icon {
         width: 100%;
       }
-
-    /* Footer */
-    .footer-right {
-        float: left;
-      }
-    footer .contact h3 {
-        font-size: 14px;
-    }
-    footer .contact ul li a {
-        font-size: 12px;
-    }
 }
