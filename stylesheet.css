@@ -262,7 +262,7 @@ footer h3{
 }
 .copyrights{
   position: absolute;
-  
+  margin-left: 30px;
 }
 .copyrights p {
   float: right;
