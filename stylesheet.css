@@ -234,7 +234,6 @@ footer {
     height: 180px;
 }
 .copyrights p{
-    position: absolute;
     font-size: 10px;
     bottom: 8px;
     color: black;
