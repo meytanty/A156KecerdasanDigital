@@ -1,0 +1,49 @@
+@media all and (max-width: 1000px) {
+  .header-right a{
+    padding-right: 15px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  .produk-wrapper {
+    font-size: 20px;
+  }
+  .kue {
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  .kue-icon {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+ 
+  .top-wrapper h1 {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .top-wrapper p {
+    font-size: 10px;
+    line-height: 20px;
+  }
+   /* Tentang Section */
+   .content_tentang .deskripsi_Tentang {
+    width: 90%;
+}
+  .kue {
+    flex-wrap: wrap;
+  }
+  .kue-icon {
+    width: 100%;
+  }
+  
+}
