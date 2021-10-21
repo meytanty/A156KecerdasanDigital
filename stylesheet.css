@@ -233,6 +233,22 @@ footer {
     position: relative;
     height: 180px;
 }
+.footer-logo{
+	padding-top: 3px;
+}
+
+.footer-address{
+	padding-top: 10px;
+	color: #fff5f0;
+  font-size: 11px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer h3{
+	color: #fff5f0;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 5px;
+}
 .copyrights p{
     font-size: 10px;
     bottom: 8px;
