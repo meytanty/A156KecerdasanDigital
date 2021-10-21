@@ -237,12 +237,12 @@ marquee {
 
 footer {
   background-color: saddlebrown;
-  background-size: 100%;
+  background-size: 100% 100%;
   display: block;
   color: #fff5f0;
   padding: 30px 50px;
   position: relative;
-  height: 180px;
+
 }
 .footer-left {
   float: left;
