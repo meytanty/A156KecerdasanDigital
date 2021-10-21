@@ -233,11 +233,4 @@ footer {
     position: relative;
     height: 180px;
 }
-.copyrights p {
-    position: relative;
-    top: 130px;
-    text-align: center;
-    font-size: 10px;
-    bottom: 8px;
-    color: black;
-}
+
