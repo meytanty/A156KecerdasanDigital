@@ -103,4 +103,11 @@
     .kue-icon {
         width: 100%;
       }
+    .footer-address h3{
+        font-size: 10px;
+        
+    }
+    .footer-address p{
+        font-size: smaller;
+    }
 }
