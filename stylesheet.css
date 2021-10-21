@@ -4,7 +4,11 @@ h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
 }
+* {
+    box-sizing:border-box;
+}
 body {
+    margin: 0;
     font-family: "lucida Grands";
 }
 li {
@@ -22,30 +26,40 @@ a {
     margin: 0 auto;
 }
 .top-wrapper {
-    padding: 210px 0 100px 0;
-    background-image: url(background_image.png);
-    background-size: cover;
+    padding: 210px 20% 50px 20%;
+    background-image: url(background_image\ KUE.png);
+    background-size: 100%;
+    border-bottom: 1px solid #341612;
     color: white;
     text-align: center;  
 }
 
 .top-wrapper h1{
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 5px;
     margin-bottom: 20px;
 }
 .top-wrapper p {
-    margin-bottom: 3px;
+    
     letter-spacing: 2px;
-
+    
+}
+marquee {
+    text-align: center;
+    width: 200px;
+    font-family: serif;
+    color: white;
+    font-weight: bold;
+    margin-top: 60px;
 }
 .btn-wrapper {
-    margin: 10px 0;
     text-align: center;
+    margin-top: 10px;
 }
 .order {
     background-color: red;
-    margin-top: 100px;
+    margin-top: 60px;
+    margin-bottom: 50px;
 }
 .btn {
     opacity: 0.8;
@@ -70,14 +84,12 @@ header{
     background-color: saddlebrown;
     position: fixed;
     top: 0;
-    z-index: 10;
+    z-index: 10;   
+    border-bottom: 1px solid #341612;
 }
-.logo {
-    font-family: 'ar decode';
-    font-size: 40px;
-    line-height: 65px;
-    color: white;
-    font-style: bold;
+.logo img {
+    height: 65px;
+    
 }
 .header-left {
     float: left;
@@ -85,18 +97,21 @@ header{
 .header-right {
     float: right;
     margin-right: -25px;
-   
+    
+}
+.header-right li{
+    float: left;
 }
 .header-right a:hover {
     color: orange;
 }
 .header-right a {
-    float: left;
     line-height: 65px;
-    padding: 0 25px;
+    padding: 0 20px;
     color: white;
     display: block;
     transition: all 0.5s;
+
 }
 .menu-icon {
     color: white;
@@ -106,3 +121,117 @@ header{
     
     display: none;
   }
+
+/* Tentang Section */
+  .content_tentang {
+      width: 100%;
+      height: auto;
+      background-color: #fff5f0;
+      padding: 50px 0px;
+      margin: auto;
+      text-align: center;
+  }
+  .content_tentang img {
+      border-radius: 50%;
+      width: 20%;
+      margin: auto;
+  }
+  .content_tentang .deskripsi_Tentang {
+      background-color: #8b4513;
+      width: 50%;
+      padding: 20px 15px;
+      margin: auto;
+      border-radius: 10px;
+  }
+  .content_tentang .deskripsi_Tentang h3 {
+      color: #341612;
+      font-family: "comic sans ms";
+      padding: 10px 0px;
+      border-bottom: 2px solid #341612;
+  }
+  .content_tentang .deskripsi_Tentang h4 {
+      color: #fff5f0;
+      padding: 10px;
+  }
+  .content_tentang .deskripsi_Tentang p {
+      text-align: justify;
+      text-indent: 30px;
+      color: #fff5f0;
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  
+.produk-wrapper {
+    background-color: #fac7aec5;
+    background-size: cover;
+    text-align: center;    
+    border-bottom: 1px solid #341612;
+    
+}
+
+.heading {
+    padding: 80px 0 50px 0;
+    color: black;
+    font-style: bold;
+
+}
+.heading h2 {
+    font-weight: normal;
+}
+.beli {
+    background-color: rgb(245, 150, 82);
+    padding: 8px 25px;
+    box-shadow: 0 5px saddlebrown;
+}
+.beli:active {
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+.fa-cart-plus {
+    color:saddlebrown;
+}
+.kue {
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.btn-produk {
+    margin-top: 10px;
+}
+.kue-icon {
+    position: relative;
+    
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex: auto;
+}
+
+.kue h4 {
+    color: red;
+}
+
+.more-btn {
+    margin: 60px 0 60px 0 ;
+    text-align: center;
+    font-size: 20px;
+}
+.more-btn a:hover {
+    color: red;
+}
+
+footer {
+    background-color: saddlebrown;
+    background-size: 100%;
+    display: block;
+    color: #fff5f0;
+    padding: 20px 50px;
+    position: relative;
+    height: 180px;
+    
+
+}
