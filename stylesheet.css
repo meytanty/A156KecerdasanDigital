@@ -81,7 +81,8 @@ header {
   text-align: center;
 }
 .heading img {
-  width: 300px;
+  border-radius: 50%;
+  width: 20%;
 }
 
 .heading h3 {
